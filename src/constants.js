@@ -7,5 +7,8 @@ export const PARENT_URLS = [
 export const CHANNELS = [
   {
     id: "counterpulsesf"
+  },
+  {
+    id: "bobross"
   }
 ];

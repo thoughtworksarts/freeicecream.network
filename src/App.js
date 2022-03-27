@@ -1,4 +1,7 @@
 import './App.css';
+import EmbeddedTwitchPlayer from './EmbeddedTwitchPlayer';
+import EmbeddedTwitchChat from './EmbeddedTwitchChat';
+import { CHANNELS } from './constants';
 
 function App() {
   return (
@@ -7,6 +10,12 @@ function App() {
         <p>
           freeicecream.network
         </p>
+        <EmbeddedTwitchPlayer
+          channel={CHANNELS[0]}
+        />
+        <EmbeddedTwitchChat
+          channel={CHANNELS[0]}
+        />
       </header>
     </div>
   );

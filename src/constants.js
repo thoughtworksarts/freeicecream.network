@@ -4,11 +4,11 @@ export const PARENT_URLS = [
   "freeicecream.network"
 ];
 
-export const CHANNELS = [
+export const LIVESTREAM_VIDEO_IDS = [
   {
-    id: "counterpulsesf"
+    id: "42M3esYyHdw"
   },
   {
-    id: "bobross"
+    id: "Pef7l15FQZY"
   }
 ];

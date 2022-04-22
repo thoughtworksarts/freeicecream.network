@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/freeicecream.network/static/css/main.fe10943f.css",
-    "main.js": "/freeicecream.network/static/js/main.7a3b3622.js",
+    "main.css": "/freeicecream.network/static/css/main.517da22f.css",
+    "main.js": "/freeicecream.network/static/js/main.362a615b.js",
     "static/js/787.81239a2b.chunk.js": "/freeicecream.network/static/js/787.81239a2b.chunk.js",
     "index.html": "/freeicecream.network/index.html",
-    "main.fe10943f.css.map": "/freeicecream.network/static/css/main.fe10943f.css.map",
-    "main.7a3b3622.js.map": "/freeicecream.network/static/js/main.7a3b3622.js.map",
+    "main.517da22f.css.map": "/freeicecream.network/static/css/main.517da22f.css.map",
+    "main.362a615b.js.map": "/freeicecream.network/static/js/main.362a615b.js.map",
     "787.81239a2b.chunk.js.map": "/freeicecream.network/static/js/787.81239a2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe10943f.css",
-    "static/js/main.7a3b3622.js"
+    "static/css/main.517da22f.css",
+    "static/js/main.362a615b.js"
   ]
 }

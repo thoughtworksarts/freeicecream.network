@@ -1,24 +1,101 @@
 .fic {
   text-align: center;
-}
-
-.fic-header {
-  background-color: white;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #282c34;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
 }
 
 .fic-container {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  flex-grow: 6;
+  justify-content: space-between;
+  border-right: 1px solid #000;
+}
+
+.fic-header {
+  padding: 0 18px;
+  background-color: white;
+  color: #282c34;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fic-header-search-input {
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 24px;
+  border: 1px solid #afafaf;
+}
+
+.fic-video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.fic-youtube-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+}
+
+.fic-items-horizontal {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 2;
+}
+
+.fic-items-vertical {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .fic-stream-chat {
   width: 100%;
   height: 100%;
+}
+
+.fic-horizontal-item {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #000;
+}
+
+.fic-horizontal-item-image {
+  border-bottom: 1px solid #afafaf;
+}
+
+.fic-horizontal-item-cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 8px 0;
+}
+
+.fic-horizontal-item-cta-rating-and-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.fic-horizontal-item-cta-button {
+  
+}
+
+.fic-item-view-button {
+  background-color: #febdff;
+  border: 0;
+  padding: 12px 48px;
+  border-radius: 24px;
+  font-weight: bold;
+  font-size: 14px;
 }
